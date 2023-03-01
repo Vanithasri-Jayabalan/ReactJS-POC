@@ -1,0 +1,40 @@
+
+body {
+    background: rgb(160, 159, 177);
+    background: radial-gradient(
+      circle,
+      rgb(199, 197, 225) 0%,
+      rgb(200, 212, 214) 0%,
+      rgb(227, 227, 233) 100%
+    );
+  }
+  
+  .container {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+  }
+  .container-form {
+    width: 80%;
+    border: 1px solid #dfdfdf;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+  }
+  pre {
+    width: 70%;
+    color: #0c0b0b;
+    font-size: larger;
+  }
+  
+  button {
+    background: #3993ed !important;
+  }
+  p {
+    color: red;
+  }
