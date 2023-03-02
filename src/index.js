@@ -10,6 +10,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import ContactComponent from './Contact';
+import Parent from './Parent';
+import GetName from './GetName';
+import SetName from './SetName';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +30,18 @@ const router = createBrowserRouter([
   {
     path: "/kendo",
     element: <KendoPage />
+  },
+  {
+    path: "/parent",
+    element: <Parent />
+  },
+  {
+    path: "/name",
+    element: <GetName />
+  },
+  {
+    path: "/display",
+    element: <SetName />
   }
   
 ]);

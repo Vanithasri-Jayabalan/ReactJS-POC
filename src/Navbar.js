@@ -10,6 +10,7 @@ function Navbar() {
                     <li><Link className="nav-list" to={"/form"}>Login</Link></li>
                     <li><Link className="nav-list" to={"/contact"}>Public API</Link></li>
                     <li><Link className="nav-list" to={"/kendo"}>Kendo</Link></li>
+                    <li><Link className="nav-list" to={"/parent"}>UseContext</Link></li>
                 </ul>
             </div>
     );
