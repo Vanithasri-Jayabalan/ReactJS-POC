@@ -12,7 +12,7 @@ function Navbar() {
                     <li><Link className="nav-list" to={"/kendo"}>Kendo</Link></li>
                     <li><Link className="nav-list" to={"/parent"}>UseContext</Link></li>
                     <li><Link className="nav-list" to={"/usestate"}>UseState</Link></li>
-                    <li><Link className="nav-list" to={"/useeffect"}>UseState</Link></li>
+                    <li><Link className="nav-list" to={"/useffect"}>UseState</Link></li>
                 </ul>
             </div>
     );

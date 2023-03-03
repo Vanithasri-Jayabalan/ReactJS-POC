@@ -50,7 +50,7 @@ const router = createBrowserRouter([
     element: <UseState />
   },
   {
-    path: "/useeffect",
+    path: "/useffect",
     element: <UseEffect />
   }
   
