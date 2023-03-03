@@ -13,6 +13,8 @@ import ContactComponent from './Contact';
 import Parent from './Parent';
 import GetName from './GetName';
 import SetName from './SetName';
+import UseState from './UseState';
+import UseEffect from './UseEffect';
 
 const router = createBrowserRouter([
   {
@@ -42,6 +44,14 @@ const router = createBrowserRouter([
   {
     path: "/display",
     element: <SetName />
+  },
+  {
+    path: "/usestate",
+    element: <UseState />
+  },
+  {
+    path: "/useeffect",
+    element: <UseEffect />
   }
   
 ]);
